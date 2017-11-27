@@ -8,7 +8,7 @@
 #                           UNCOMMENT TO SELECT DOUBLE PRECISION
 #--------------------------------------------------------------------------
          FLAG_1 = -DDOUBLE_PRECISION
-         FLAG_2 = -DPARALLEL
+#         FLAG_2 = -DPARALLEL
           FLAG_3 = -DLANDSLIDE
 #         FLAG_4 = -DBUBBLE
 #         FLAG_5 = -DSEDIMENT

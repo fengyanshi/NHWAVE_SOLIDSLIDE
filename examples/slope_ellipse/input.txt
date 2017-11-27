@@ -185,15 +185,15 @@ SMFCut = F
 Slide = F
 SlideStop = F
 
-H_slide = 34.0
-L_slide = 274.0
-subaer_center2water = -1000.0
-W_slide = 250.0
+H_slide = 10.0
+L_slide = 100.0
+subaer_center2water = -100.0
+W_slide = 100.0
 e_slide = 0.717
-Angle_slide = 26.0
-X0_slide = 1350.0
-Y0_slide = 12800.0
-Slope_slide = 14.0
+Angle_slide = 30.0
+X0_slide = 400.0
+Y0_slide = 1600.0
+Slope_slide = 10.0
 Coulomb_phi = 8.0
 TermV_slide = 30.0
 
