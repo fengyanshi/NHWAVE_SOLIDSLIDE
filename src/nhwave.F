@@ -5792,6 +5792,7 @@ endif
        CALL GET_LOGICAL_VAL(SlideStop,FILE_NAME,'SlideStop',line) !CO
 
      ELSE
+
        NumSlides = 1
        ALLOCATE(T_slide(NumSlides))
        ALLOCATE(b_slide(NumSlides))
@@ -5806,7 +5807,7 @@ endif
        ALLOCATE(term_v(NumSlides))
        ALLOCATE(uslide(NumSlides))
        ALLOCATE(Smax_slide(NumSlides))
-
+       ALLOCATE(ac_slide(NumSlides))
        CALL GET_Float_VAL(T_slide(1),FILE_NAME,'H_slide',line)
        CALL GET_Float_VAL(b_slide(1),FILE_NAME,'L_slide',line)
 
@@ -5830,8 +5831,6 @@ endif
        CALL GET_LOGICAL_VAL(SlideStop,FILE_NAME,'SlideStop',line) !CO
        CALL GET_Float_VAL(Smax_slide(1),FILE_NAME,'Smax_slide',line) !CO
        CALL GET_Float_VAL(ac_slide(1),FILE_NAME,'ac_slide',line) !CO it will be calculate 
-
-
        IF(ANA_BATHY)THEN
        CALL GET_Float_VAL(acceleration_lab,FILE_NAME,'ACC_lab',line)
        ENDIF
