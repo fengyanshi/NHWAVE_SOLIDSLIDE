@@ -1,0 +1,28 @@
+number_slides   
+2
+slide start time
+0.0  0.0
+slide height  
+10.0 20.0
+slide length
+100.0  200.0
+slide width
+100.0  200.0
+e_parameter
+0.717 0.717
+subaer_center2water0
+-100.0 -100.0
+slide_angle_cartesian_deg
+30.0 -30.0
+Coulomb_angle_deg
+8.0  8.0
+x0_slide
+400.0 400.0
+y0_slide
+1600.0 800.0
+slide_slope_deg
+10.0 10.0
+terminal_velocity 
+30.0  30.0
+maximum slide distance
+400.0  600.0
